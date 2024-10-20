@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Chhillar Image Gallery Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Saurabh Chhillar Image Gallery Project</h1>
+    </header>
+    <section class="gallery">
+        <div class="image-container" data-index="1"><img src="image1.jpg" alt="Image 1"></div>
+        <div class="image-container" data-index="2"><img src="image2.jpg" alt="Image 2"></div>
+        <div class="image-container" data-index="3"><img src="image3.jpg" alt="Image 3"></div>
+        <div class="image-container" data-index="4"><img src="image4.jpg" alt="Image 4"></div>
+        <div class="image-container" data-index="5"><img src="image5.jpg" alt="Image 5"></div>
+        <div class="image-container" data-index="6"><img src="image6.jpg" alt="Image 6"></div>
+        <div class="image-container" data-index="7"><img src="image7.jpg" alt="Image 7"></div>
+        <div class="image-container" data-index="8"><img src="image8.jpg" alt="Image 8"></div>
+        <div class="image-container" data-index="9"><img src="image9.jpg" alt="Image 9"></div>
+        <div class="image-container" data-index="10"><img src="image10.jpg" alt="Image 10"></div>
+        <div class="image-container" data-index="11"><img src="image11.jpg" alt="Image 11"></div>
+        <div class="image-container" data-index="12"><img src="image12.jpg" alt="Image 12"></div>
+        <div class="image-container" data-index="13"><img src="image13.jpg" alt="Image 13"></div>
+        <div class="image-container" data-index="14"><img src="image14.jpg" alt="Image 14"></div>
+        <div class="image-container" data-index="15"><img src="image15.jpg" alt="Image 15"></div>
+        <div class="image-container" data-index="16"><img src="image16.jpg" alt="Image 16"></div>
+        <div class="image-container" data-index="17"><img src="image17.jpg" alt="Image 17"></div>
+        <div class="image-container" data-index="18"><img src="image18.jpg" alt="Image 18"></div>
+        <div class="image-container" data-index="19"><img src="image19.jpg" alt="Image 19"></div>
+        <div class="image-container" data-index="20"><img src="image20.jpg" alt="Image 20"></div>
+    </section>
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="next" onclick="changeImage(1)">&#10095;</a>
+    </div>
+    <footer>
+        <p>© 2024 Saurabh Chhillar | All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
